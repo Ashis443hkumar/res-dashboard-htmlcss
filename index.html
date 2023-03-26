@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<!-- Created by CodingLab |www.youtube.com/CodingLabYT-->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <!--<title> Drop Down Sidebar Menu | CodingLab </title>-->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Boxiocns CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <link
+     rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+     integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+     crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+   </head>
+<body>
+  <div class="sidebar close">
+    <div class="logo-details">
+      <i class='bx bxl-c-plus-plus'></i>
+      <span class="logo_name">CodingLab</span>
+    </div>
+    <ul class="nav-links">
+      <li>
+        <a href="#">
+          <i class='bx bx-grid-alt' ></i>
+          <span class="link_name">Dashboard</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#">Category</a></li>
+        </ul>
+      </li>
+      <li>
+        <div class="iocn-link">
+          <a href="#">
+            <i class='bx bx-collection' ></i>
+            <span class="link_name">Category</span>
+          </a>
+          <i class='bx bxs-chevron-down arrow' ></i>
+        </div>
+        <ul class="sub-menu">
+          <li><a class="link_name" href="#">Category</a></li>
+          <li><a href="#">HTML & CSS</a></li>
+          <li><a href="#">JavaScript</a></li>
+          <li><a href="#">PHP & MySQL</a></li>
+        </ul>
+      </li>
+      <li>
+        <div class="iocn-link">
+          <a href="#">
+            <i class='bx bx-book-alt' ></i>
+            <span class="link_name">Posts</span>
+          </a>
+          <i class='bx bxs-chevron-down arrow' ></i>
+        </div>
+        <ul class="sub-menu">
+          <li><a class="link_name" href="#">Posts</a></li>
+          <li><a href="#">Web Design</a></li>
+          <li><a href="#">Login Form</a></li>
+          <li><a href="#">Card Design</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-pie-chart-alt-2' ></i>
+          <span class="link_name">Analytics</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#">Analytics</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-line-chart' ></i>
+          <span class="link_name">Chart</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#">Chart</a></li>
+        </ul>
+      </li>
+      <li>
+        <div class="iocn-link">
+          <a href="#">
+            <i class='bx bx-plug' ></i>
+            <span class="link_name">Plugins</span>
+          </a>
+          <i class='bx bxs-chevron-down arrow' ></i>
+        </div>
+        <ul class="sub-menu">
+          <li><a class="link_name" href="#">Plugins</a></li>
+          <li><a href="#">UI Face</a></li>
+          <li><a href="#">Pigments</a></li>
+          <li><a href="#">Box Icons</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-compass' ></i>
+          <span class="link_name">Explore</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#">Explore</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-history'></i>
+          <span class="link_name">History</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#">History</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-cog' ></i>
+          <span class="link_name">Setting</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#">Setting</a></li>
+        </ul>
+      </li>
+      <li>
+    <div class="profile-details">
+      <div class="profile-content">
+        <!--<img src="image/profile.jpg" alt="profileImg">-->
+      </div>
+      <div class="name-job">
+        <div class="profile_name">Prem Shahi</div>
+        <div class="job">Web Desginer</div>
+      </div>
+      <i class='bx bx-log-out' ></i>
+    </div>
+  </li>
+</ul>
+  </div>
+  <section class="home-section">
+    <div class="home-content">
+      <head>
+        <div class="">
+          <i class='bx bx-menu' ></i>
+          <span class="text">Drop Down Sidebar</span>
+        </div>
+      </head>
+     
+    </div>
+    <main class="">
+       <section id="cricket_match_management">  
+            <div class="cricket_match_mng">
+              <h3>Cricket Match Management</h3>   
+              <button class="addauto_btn">Add Auto Match</button>       
+            </div>
+
+      <div class="cricket_mang_content">
+
+        <div class="cricket_mang_content_head">
+            <div class="">
+             <span> Show
+               <select name="" id="">
+                <option value="">1</option>
+                <option value="">2</option>
+                <option value="">3</option>
+                <option value="">4</option>
+                <option value="">5</option>
+                <option value="">6</option>
+                <option value="">7</option>
+                <option value="">8</option>
+                <option value="">9</option>
+                <option value="">10</option>
+               </select>
+               Entires
+             </span>
+            </div>
+            <div class="">
+              <label for="">Search:</label>
+              <input type="text" name="" id="" placeholder=" ">
+            </div>
+        </div>
+
+          <table >
+              <thead class="cricket_managemnt_table">
+                  <tr>
+                      <td><p>Match Id</p></td>
+                      <td><p>Match Type</p></td>
+                      <td><p>State Date</p></td>
+                      <td><p>End Date</p></td>
+                      <td><p>Series Name</p></td>
+                      <td><p>Team 1</p></td>
+                      <td><p>Team 2</p></td>
+                      <td><p>Total Contest</p></td>
+                      <td><p>User Joined</p></td>
+                      <td><p>View Status</p></td>
+                      <td><p>Match Pin</p></td>
+                      <td><p>Match time update</p></td>
+                      <td><p>Status</p></td>
+                      <td><p>Actions</p></td>
+
+                  </tr>
+              </thead>
+              <tbody class="cricket_management_table_content">
+                  <tr>
+                      <td><p>59934</p></td>
+                      <td><p>ODI</p></td>
+                      <td><p>28-3-2023 06:30:00</p></td>
+                      <td><p>29-3-2023 12:30:00</p></td>
+                      <td><p>Sri lanka tour of New zealand</p></td>
+                      <td><p>New Zealand (NZ)</p> </td>
+                      <td><p>Sri Lanka(SL)</p> </td>
+                      <td><p class="">0</p></td>
+                      <td><p>0</p></td>
+                      <td><p class="active_btn">view</p></td>
+                      <td><p class="disiable_btn">view</p></td>
+                      <td><p class="active_btn">view</p></td>
+                      <td><p>Approved</p></td>
+                      <td class="cricket_btn_match">
+                          <div class="cr_dublebtn">
+                            <a href="" class="cr_btn red_pen"><i class="fa-solid fa-pen"></i></a>
+                            <a href="" class="cr_btn eye_icon"><i class="fa-solid fa-eye"></i></a>
+                          </div>
+                         <a href="" class="cr_btn deleet_icon"><i class="fa-solid fa-trash"></i></a>
+
+                      </td>
+                  </tr>
+                 
+              
+                  
+              </tbody>
+          </table>
+      </div>
+
+       </section>
+     
+
+  
+
+   
+    </main>
+  </section>
+  <script>
+  let arrow = document.querySelectorAll(".arrow");
+  for (var i = 0; i < arrow.length; i++) {
+    arrow[i].addEventListener("click", (e)=>{
+   let arrowParent = e.target.parentElement.parentElement;//selecting main parent of arrow
+   arrowParent.classList.toggle("showMenu");
+    });
+  }
+  let sidebar = document.querySelector(".sidebar");
+  let sidebarBtn = document.querySelector(".bx-menu");
+  console.log(sidebarBtn);
+  sidebarBtn.addEventListener("click", ()=>{
+    sidebar.classList.toggle("close");
+  });
+  </script>
+</body>
+</html>
