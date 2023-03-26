@@ -462,13 +462,13 @@ table{
   text-align: center;
 }
 .cricket_btn_match .red_pen i{
-  background-color: blue;
+  background-color: skyblue;
 }
 .cricket_btn_match .deleet_icon i{
   background-color: crimson;
 }
 .cricket_btn_match .eye_icon i{
-  background-color: blue;
+  background-color: skyblue;
 }
 
 .cricket_mng_footer{
@@ -482,16 +482,15 @@ table{
   padding: 10px;
 }
 
-/* ------------------team from ----------------- */
+
+/* ------------------team cricket from ----------------- */
 .cricket_team_content{
   background-color: #ffff;
-  
 }
 .cricket_team_content .team_submit_frorm{
   text-align: center;
   align-items: center;
   padding: 20px 0;
-
 }
 .cricket_team_content .team_submit_frorm button{
   padding: 10px 24px;
@@ -511,7 +510,6 @@ table{
 .team1{
   width: 900px;
   padding: 20px 40px;
-
 }
 .team1 h3{
   background-color: #eee;
@@ -520,10 +518,9 @@ table{
   padding: 10px 20px;
   color: #000;
   font-size: 16px;
-  
-
 }
 .team1 .team_logo{
+  display: inline;
   padding: 20px 10px;
 }
 .team1 div{
@@ -543,3 +540,156 @@ table{
   padding: 10px 20px;
 }
 
+
+/* select team  pages  */
+#select_team{
+  padding: 20px 30px;
+  border-top: 3px solid green;
+}
+.select_team_content h3{
+  padding: 20px 10px;
+}
+.team_select_head1{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px 0px;
+}
+.team_select_select select{
+  width: 300px;
+  height: 40px;
+  margin-right: 100px;
+  font-size: 18px;
+  padding: 0 10px;
+}
+.team_select_head1 .team_select_btn button{
+  padding: 10px 24px;
+  border: none;
+  outline: none;
+  margin-right: 10px;
+  color: #fff;
+}
+.team_select_head1 .team_select_btn button:nth-child(1){
+  background-color: skyblue;
+}
+.team_select_head1 .team_select_btn button:nth-child(2){
+  background-color: burlywood;
+  margin: 0px 80px;
+}
+.team_select_head1 .team_select_btn button:nth-child(3){
+  background-color: green;
+}
+ .team_cheacked{
+  text-align: center;
+  margin: 30px auto;
+  
+}
+.team_box_section{
+  width: 700px;
+  height: 90px;
+  padding: 10px 20px;
+  background-color: #fff;
+  text-align: end;
+}
+.team_box_section button{
+  background-color: green;
+  padding: 6px 25px;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 17px;
+  margin: 20px auto;
+}
+.team_select_head1 .team_cheacked input{
+  height: 30px;
+  width: 30px;
+}
+.team_select_table table thead tr td{
+  border-bottom: 2px solid black;
+  padding: 10px;
+}
+.team_select_table table tbody tr td{
+  padding: 10px 10px;
+  border-bottom: 1px solid black;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+input:checked + .slider {
+  background-color: #2196F3;
+}
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+.team_select_color{
+  background-color: #fff;
+}
+.team_select_body .team_edit_select{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.team_select_body .team_edit_select a i{
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: #fff;
+}
+.team_select_body .team_edit_select .red_pen{
+  background-color: skyblue;
+  margin-right: 5px;
+
+}
+.team_select_body .team_edit_select .deleet_icon{
+ background-color: crimson;
+}
