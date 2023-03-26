@@ -228,7 +228,103 @@ body{
   display: flex;
   align-items: center;
   background-color: #253047;
+  justify-content: space-between;
 }
+.div_user{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 20px;
+}
+.div_user span{
+  font-size: 16px;
+  color: #fff;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.div_user img{
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-left: 15px;
+  cursor: pointer;
+}
+/* user profile  */
+.user_login_profile{
+  width: 290px;
+  height: 280px;
+  background-color: #ffff;
+  color: #fff;
+  position: absolute;
+  top: 62px;
+  right: 3px;
+  text-align: center;
+  cursor: pointer;
+  display: none;
+  box-shadow: 0px 0px 12px 8px rgba(67,099,99,0.71);
+}
+.user_profile{
+ background-color: #21232d;
+ padding: 20px 30px;
+ 
+}
+.user_profile img{
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 15px;
+
+}
+.user_profile h2{
+  font-size: 16px;
+  margin: 0px;
+}
+.user_profile p{
+  font-size: 14px;
+  margin-top: 10px;
+}
+.user_profile h2{
+  font-size: 16px;
+  margin: 0px;
+}
+.user_profile p{
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.user_login{
+  padding: 20px 6px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+.user_login button{
+  outline: none;
+  border: none;
+  background: none;
+}
+.user_login button i{
+  font-size: 13px;
+  color: #38ada9;
+}
+
+.user_login button a{
+  display: block;
+  text-decoration: none;
+  padding: 10px 9px;
+  color: #b2b2b2;
+  font-size: 13px;
+  font-weight: 600;
+  background: none;
+  background-color: #eee;
+  border: 1px solid #b2b2b2;
+  cursor: pointer;
+}
+
+
+
 .home-section  main{
   padding: 30px 6px;
 }
@@ -279,6 +375,11 @@ body{
   display: flex;
   justify-content: space-between;
 }
+.cricket_match_mng h3{
+  color: #000;
+  padding: 0px 10px;
+  
+}
 .addauto_btn{
   background-color: green;
   padding: 10px 20px;
@@ -306,7 +407,7 @@ table{
   padding: 30px;
 }
 .cricket_managemnt_table tr td{
-  border-bottom: 2px solid red;
+  border-bottom: 2px solid black;
   padding: 10px 11px;
 }
 .cricket_managemnt_table tr td p{
@@ -316,13 +417,30 @@ table{
 .cricket_management_table_content tr td{
   padding: 10px;
   /* background-color: #1d1b31; */
+  border-bottom: 1px solid #dbdbdb;
 }
 .cricket_management_table_content tr p{
-  color: red;
-  font-size: 13px;
+  color: #2b2b2b;
+  font-size: 14px;
 }
-.cricket_management_table_content .cricket_btn_match{
- 
+.cricket_management_table_content .approved{
+  font-size: 13px;
+  color: #000;
+  font-weight: 400;
+}
+.cricket_management_table_content .active_btn{
+  background-color: green;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 20px;
+  text-align: center;
+}
+.cricket_management_table_content .disiable_btn{
+  background-color: #E4E9F7;
+  padding: 5px 10px;
+  border-radius: 20px;
+  text-align: center;
+  color: #000;
 }
 .cricket_management_table_content .cr_dublebtn{
   display: flex;
@@ -339,20 +457,7 @@ table{
   font-size: 10px;
   background-color: red;
 }
-.cricket_management_table_content .active_btn{
-  background-color: green;
-  color: #fff;
-  padding: 5px 10px;
-  border-radius: 20px;
-  text-align: center;
-}
-.cricket_management_table_content .disiable_btn{
-  background-color: #E4E9F7;
-  padding: 5px 10px;
-  border-radius: 20px;
-  text-align: center;
-  color: #000;
-}
+
 .cricket_management_table_content .cricket_btn_match{
   text-align: center;
 }
@@ -366,7 +471,75 @@ table{
   background-color: blue;
 }
 
+.cricket_mng_footer{
+  background-color: #fff;
+  padding: 20px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cricket_mng_footer button{
+  padding: 10px;
+}
 
+/* ------------------team from ----------------- */
+.cricket_team_content{
+  background-color: #ffff;
+  
+}
+.cricket_team_content .team_submit_frorm{
+  text-align: center;
+  align-items: center;
+  padding: 20px 0;
 
+}
+.cricket_team_content .team_submit_frorm button{
+  padding: 10px 24px;
+  background-color: skyblue;
+  text-align: center;
+  color: #fff;
+  border: none;
+  outline: none;
+}
+.team_form{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-top: 3px solid green;
+  margin-top: 20px;
+}
+.team1{
+  width: 900px;
+  padding: 20px 40px;
 
+}
+.team1 h3{
+  background-color: #eee;
+  width: 100%;
+  height: 50px;
+  padding: 10px 20px;
+  color: #000;
+  font-size: 16px;
+  
+
+}
+.team1 .team_logo{
+  padding: 20px 10px;
+}
+.team1 div{
+  display: flex;
+  flex-direction: column;
+
+}
+.team1 div label{
+  font-size: 18px;
+  color: #000;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+.team1 div input{
+  width: 100%;
+  height: 40px;
+  padding: 10px 20px;
+}
 
